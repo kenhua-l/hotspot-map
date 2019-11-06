@@ -1,0 +1,21 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "This is the data selfie app by Joey Lee.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "selfie"
+  ],
+  "author": "Daniel Shiffman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-pre-gyp": "^0.14.0",
+    "p5": "^0.10.2"
+  }
+}
