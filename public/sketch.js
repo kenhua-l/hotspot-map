@@ -1,9 +1,7 @@
 // Declare Variables
-// var canvasWidth = parseFloat(document.getElementById("canvas").style.width);
-// var canvasHeight = parseFloat(document.getElementById("canvas").style.height);
 var canvasWidth = parseFloat(document.getElementById("canvas").offsetWidth);
 var canvasHeight = parseFloat(document.getElementById("canvas").offsetHeight);
-// console.log(canvasWidth + " " + canvasHeight);
+console.log(canvasWidth + " " + canvasHeight);
 // N 32.6 E 150
 // S -18.75 W 86
 var coords = { N: 32.6, S: -18.75, E: 150, W: 81.25 };
@@ -15,15 +13,10 @@ var windCoords = {};
 var boundWindCoords = {};
 var altX = coords.W;
 var altY = coords.N;
-// var offsetX = 729 / 64;
-// var offsetY = 609 / 51.35;
 var offsetX = canvasWidth / (coords.E - coords.W);
 var offsetY = canvasHeight / (coords.S - coords.N);
-
 var hotspotOffsetX = canvasWidth / Math.abs(coords.E - coords.W);
 var hotspotOffsetY = canvasHeight / Math.abs(coords.S - coords.N);
-// console.log(hotspotOffsetX);
-// console.log(hotspotOffsetY);
 var hotspot = [];
 var boundaryArr = [];
 var hotspotDisplay = true;
@@ -34,10 +27,9 @@ var windDisplay = false;
 function setup() {
   frameRate(1);
   var cnv = createCanvas(canvasWidth, canvasHeight);
-  cnv.style("display", "block");
-  cnv.parent("canvas");
-  // console.log(cnv.parent("canvas").width);
-  // createCanvas("100%", 100);
+  //cnv.style("display", "block");
+  cnv.class("canvasHere");
+
   img = loadImage("canvas.png"); // Load the image
   satellite = loadImage("satellite.png");
   wind = loadImage("wind");
@@ -89,7 +81,6 @@ function setup() {
         NW: alterCoords(windCoords.W, windCoords.N),
         SE: alterCoords(windCoords.E, windCoords.S)
       };
-      // console.log(boundWindCoords);
     });
 
   // Satellite
@@ -97,7 +88,6 @@ function setup() {
     NW: alterCoords(satelliteCoords.W, satelliteCoords.N),
     SE: alterCoords(satelliteCoords.E, satelliteCoords.S)
   };
-  // console.log(boundSatelliteCoords);
 }
 
 function alterCoords(x, y) {
@@ -112,11 +102,7 @@ function markers(x, y) {
   strokeWeight(3);
   var mapX = Math.abs(x - altX) * hotspotOffsetX;
   var mapY = Math.abs(y - Math.abs(altY)) * hotspotOffsetY;
-
-  // console.log("before " + x, y);
-  // console.log("after " + mapX, mapY);
   image(dot, mapX, mapY);
-  // point(mapX, mapY);
 }
 
 function boundary(arr, options) {
@@ -167,7 +153,6 @@ function draw() {
   // Satellite
   if (satelliteDisplay === true) {
     // satellite.resize(729, 609);
-    // console.log("drawing");
     const satelliteEast = canvasWidth - boundSatelliteCoords.SE.newX;
     const satelliteSouth = canvasHeight - boundSatelliteCoords.SE.newY;
     const satelliteHeight =
@@ -188,10 +173,6 @@ function showHotspot() {
   for (var p = 0; p < hotspot.length; p++) {
     markers(hotspot[p].lng, hotspot[p].lat);
   }
-  // noFill();
-  // stroke("red"); // Change the color
-  // strokeWeight(3);
-  // point(615.84, 834.989);
 }
 
 function showBoundary() {
@@ -233,7 +214,6 @@ function toggleWind() {
 }
 
 $(document).ready(function() {
-  // console.log("running");
   $("#canvasDiv").scrollTop(280);
   $("#canvasDiv").scrollLeft(150);
 });
