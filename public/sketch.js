@@ -3,7 +3,7 @@
 // var canvasHeight = parseFloat(document.getElementById("canvas").style.height);
 var canvasWidth = parseFloat(document.getElementById("canvas").offsetWidth);
 var canvasHeight = parseFloat(document.getElementById("canvas").offsetHeight);
-console.log(canvasWidth + " " + canvasHeight);
+// console.log(canvasWidth + " " + canvasHeight);
 // N 32.6 E 150
 // S -18.75 W 86
 var coords = { N: 32.6, S: -18.75, E: 150, W: 81.25 };
@@ -22,8 +22,8 @@ var offsetY = canvasHeight / (coords.S - coords.N);
 
 var hotspotOffsetX = canvasWidth / Math.abs(coords.E - coords.W);
 var hotspotOffsetY = canvasHeight / Math.abs(coords.S - coords.N);
-console.log(hotspotOffsetX);
-console.log(hotspotOffsetY);
+// console.log(hotspotOffsetX);
+// console.log(hotspotOffsetY);
 var hotspot = [];
 var boundaryArr = [];
 var hotspotDisplay = true;
@@ -89,7 +89,7 @@ function setup() {
         NW: alterCoords(windCoords.W, windCoords.N),
         SE: alterCoords(windCoords.E, windCoords.S)
       };
-      console.log(boundWindCoords);
+      // console.log(boundWindCoords);
     });
 
   // Satellite
@@ -97,7 +97,7 @@ function setup() {
     NW: alterCoords(satelliteCoords.W, satelliteCoords.N),
     SE: alterCoords(satelliteCoords.E, satelliteCoords.S)
   };
-  console.log(boundSatelliteCoords);
+  // console.log(boundSatelliteCoords);
 }
 
 function alterCoords(x, y) {
@@ -160,16 +160,14 @@ function draw() {
       boundWindCoords.NW.newX,
       boundWindCoords.NW.newY,
       windWidth,
-      windHeight,
-      WindEast,
-      WindSouth
+      windHeight
     );
   }
 
   // Satellite
   if (satelliteDisplay === true) {
     // satellite.resize(729, 609);
-    console.log("drawing");
+    // console.log("drawing");
     const satelliteEast = canvasWidth - boundSatelliteCoords.SE.newX;
     const satelliteSouth = canvasHeight - boundSatelliteCoords.SE.newY;
     const satelliteHeight =
@@ -235,7 +233,7 @@ function toggleWind() {
 }
 
 $(document).ready(function() {
-  console.log("running");
+  // console.log("running");
   $("#canvasDiv").scrollTop(280);
   $("#canvasDiv").scrollLeft(150);
 });
