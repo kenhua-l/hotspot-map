@@ -1,0 +1,3152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+<Style id="My_Style">
+ <IconStyle><scale>0.5</scale> <Icon> <href>https://storage.googleapis.com/support-kms-prod/SNP_2752125_en_v0</href> </Icon></IconStyle>
+</Style>
+<Folder><name>Haze_Hotspots_20191021_182600</name>
+<Schema name="Haze_Hotspots_20191021_182600" id="Haze_Hotspots_20191021_182600">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="satellite" type="string"></SimpleField>
+	<SimpleField name="time" type="string"></SimpleField>
+	<SimpleField name="region" type="string"></SimpleField>
+</Schema>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.9085,-8.217</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.9061,-8.2073</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.8938,-8.209</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.06659999999999,-8.1751</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.9521,-8.190899999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.46129999999999,-8.3932</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.4556,-8.3939</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.4494,-8.3948</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.9491,-8.1813</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.4795,-8.368499999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.6253,-8.2049</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.61969999999999,-8.2056</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.4628,-8.3596</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.4367,-8.363099999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.42319999999999,-8.3537</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.3877,-8.3583</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.5463,-8.3139</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.5402,-8.3147</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.4255,-8.3053</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.5475,-8.313499999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.5414,-8.314299999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.42740000000001,-8.3057</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.4186,-8.3069</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0937,-8.1096</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.08669999999999,-8.1105</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.02760000000001,-8.118</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.26649999999999,-8.074999999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2587,-8.076</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2454,-8.0777</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2329,-8.0793</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0939,-8.0967</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0868,-8.0976</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0796,-8.0985</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.072,-8.0995</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0639,-8.1005</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0393,-8.1036</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0234,-8.1056</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2627,-8.062799999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0843,-8.0822</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.07810000000001,-8.0314</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0558,-8.0343</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.6601,-8.0319</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.5993,-8.026199999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.5941,-8.0135</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.8788,-8.100199999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.60290000000001,-8.0263</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.6009,-8.013299999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.8844,-8.1052</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.8653,-8.1076</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.9525,-7.9999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.94070000000001,-8.0014</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.6621,-7.8996</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.59910000000001,-7.9342</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.9573,-8.004099999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.9461,-8.005599999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.65689999999999,-7.9002</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.4346,-7.9291</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.46259999999999,-7.934</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.438,-7.9372</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.5784,-7.8068</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.57510000000001,-7.8003</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.0908,-5.2896</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.78319999999999,-5.4858</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.91840000000001,-4.9617</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.7907,-5.4194</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.789,-5.4027</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8897,-5.3714</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8813,-5.3726</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.88930000000001,-5.363</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8806,-5.3643</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.88809999999999,-5.3548</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8797,-5.356</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.874,-4.874</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.91670000000001,-5.2764</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.91459999999999,-5.2683</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.9068,-5.2694</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.63039999999999,-5.3088</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.4679,-4.8767</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.46680000000001,-4.8696</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.4589,-4.8708</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.6725,-5.2686</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.66459999999999,-5.2697</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.6656,-5.2729</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.664,-5.2646</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>127.0076,-3.3937</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.5123,-4.0676</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.035,-4.1391</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.0269,-4.1403</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.7505,-3.37</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.05929999999999,-4.077</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.12130000000001,-3.9887</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7092,-4.0423</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.4164,-3.9019</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.64570000000001,-4.0145</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.9252,-3.2132</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7701,-3.989</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7617,-3.9902</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.932,-3.2093</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.9242,-3.2105</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.77079999999999,-3.9914</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7625,-3.9927</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7782,-3.9829</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.76990000000001,-3.9842</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7615,-3.9855</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6533,-4.0018</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.63639999999999,-4.0043</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7771,-3.9757</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.66079999999999,-3.9932</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6442,-3.9957</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.63549999999999,-3.997</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.776,-3.9685</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7666,-3.9625</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7906,-3.9515</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7573,-3.9565</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.3344,-2.96</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.9971,-2.82</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.3794,-2.5819</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.3711,-2.5831</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.48690000000001,-2.8549</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.47969999999999,-2.8559</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.0492,-2.7638</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.48480000000001,-2.8468</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8058,-2.7834</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>125.3325,-1.8707</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.75449999999999,-2.3381</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.85769999999999,-3.3998</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.5278,-2.5494</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.7924,-3.3969</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.9183,-3.2353</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.6939,-2.3673</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.7599,-2.3413</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.75920000000001,-2.3392</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.7512,-2.3322</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.7437,-2.3334</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.90949999999999,-2.1027</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.5946,-1.693</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.4678,-3.1556</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.797,-3.126</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.88249999999999,-2.0364</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.4692,-3.1499</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5916,-1.835</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5836,-1.8362</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.49720000000001,-1.4365</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.49930000000001,-1.4022</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.5527,-1.2813</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.5085,-1.1805</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1523,-1.3109</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1455,-1.3119</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1495,-1.3031</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.68429999999999,-1.026</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.071,-0.7761</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.0915,-0.9241</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.08459999999999,-0.9251</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.7886,-0.7555</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.17359999999999,-0.6645</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1669,-0.6655</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.17189999999999,-0.6553</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1652,-0.6564</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.1091,-0.6433</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>124.6739,0.839</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.4851,-0.5095</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.4328,0.5801</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.4166,0.5914</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.40940000000001,0.5903</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.8848,-0.4155</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.8672,-0.4183</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.8613,-0.4192</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.7954,-0.419</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.89409999999999,0.5257</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.69029999999999,-0.4143</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2299,-0.5913</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.22239999999999,-0.5924</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2304,-0.5884</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.566,-4.8259</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8939,-5.155</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8927,-5.0064</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.9258,-4.8934</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6686,-4.6272</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.9701,-4.575</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.9773,-4.5665</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.96899999999999,-4.5677</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6212,-4.6117</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.276,-4.7682</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.63720000000001,-4.3814</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.6293,-4.3826</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7431,-4.4855</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.67489999999999,-4.4955</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.78360000000001,-4.4646</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.77509999999999,-4.4659</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.91670000000001,-4.4376</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6455,-4.4065</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.16030000000001,-4.3226</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.6379,-3.5727</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.76349999999999,-4.2955</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.1053,-4.518</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.0981,-4.519</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.1318,-4.5058</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5759,-4.2861</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5672,-4.2873</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.1913,-3.5857</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.3573,-3.5326</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.3501,-3.5337</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>127.1104,-3.4085</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7718,-3.9395</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.8404,-3.16</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.8468,-3.152</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.84569999999999,-3.1451</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>126.8159,-3.1497</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.1926,-3.8078</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.8236,-3.7531</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.8421,-3.4165</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.1991,-3.9134</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.19280000000001,-3.9143</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.0767,-3.8775</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.2966,-3.2442</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.95229999999999,-3.2839</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.4828,-3.3129</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.47499999999999,-3.3141</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.08620000000001,-3.812</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.0912,-3.8005</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.0847,-3.8015</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.08280000000001,-3.9457</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6311,-2.9778</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.4438,-3.8092</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5762,-2.8924</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.5483,-3.1783</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.25790000000001,-3.5513</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2517,-3.5522</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.23309999999999,-3.5549</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2269,-3.5558</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.80370000000001,-3.5315</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.1788,-3.0253</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>119.3291,-2.9777</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.27589999999999,-1.8725</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.27460000000001,-1.8648</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.3172,-2.4382</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68389999999999,-1.7657</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6853,-1.764</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.9451,-2.5981</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.0457,-2.5718</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.33669999999999,-1.6054</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6469,-1.701</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.0651,-1.7639</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.01049999999999,-1.3124</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.06659999999999,-1.7586</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.8177,-1.4176</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.7475,-1.4281</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.5228,-1.2768</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.5154,-1.2779</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.60809999999999,-1.4057</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0278,-2.4369</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.01949999999999,-2.4381</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.027,-2.4387</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0187,-2.44</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.5771,-2.1711</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0271,-2.3785</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>122.8364,-0.8993</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.1365,-1.7647</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2675,-1.6834</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.31229999999999,-1.6102</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.3066,-1.6111</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2944,-1.4951</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.223,-0.5895</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2153,-0.5907</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.49420000000001,0.8572</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2974,-0.2337</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.3121,0.8499</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.05719999999999,-0.22</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.38979999999999,-0.0919</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.575,-0.217</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.5693,-0.2178</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.05419999999999,-0.4154</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.29510000000001,-0.0465</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2843,-0.0481</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2734,-0.0497</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0532,-0.4136</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2871,-0.0498</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.27630000000001,-0.0515</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.28570000000001,-0.0401</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2748,-0.0418</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2985,0.0218</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.6065,0.2259</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.5964,0.2243</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.60509999999999,0.2354</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.5949,0.2338</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.5286,0.4512</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>125.10550000000001,1.6299</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.34999999999999,0.4039</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.62439999999999,0.7636</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.34829999999999,0.4142</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.0879,0.7094</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.07989999999999,0.7134</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.0578,2.2703</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.05029999999999,2.2691</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.1824,2.1362</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.05840000000001,2.2677</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>118.0509,2.2665</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.18380000000001,2.1356</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>117.12609999999999,2.1627</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0102,4.4383</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.988,4.9457</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.95740000000001,5.218</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.2306,5.2817</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>115.8032,5.3898</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>125.6448,8.0113</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>124.36020000000001,7.9834</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>123.3883,10.863799999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53530000000001,12.6175</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70099999999999,13.135999999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.1142,15.2673</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84820000000001,18.382899999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.55119999999999,-7.7952</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.7718,-7.8502</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.4774,-7.7147</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.7717,-7.8432</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.7641,-7.8446</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.172,-7.6759</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.73090000000001,-7.4913</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.0385,-7.213</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.041,-7.2133</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.6754,-7.2651</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.404,-6.8545</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.3929,-6.8564</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.8516,-6.9309</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.8535,-6.9305</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.68389999999999,-6.8617</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.94070000000001,-6.7782</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.2482,-6.5132</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>106.08369999999999,-6.6807</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.70010000000001,-5.7508</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.7071,-5.5894</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.8249,-4.7852</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.8252,-4.7829</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.76130000000001,-4.749</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.73139999999999,-4.6632</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.7912,-4.5652</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.7916,-4.5631</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.7234,-4.5034</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.6185,-4.5205</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.9089,-4.5193</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.15479999999999,-4.4538</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.1473,-4.455</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4924,-3.4406</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.47790000000001,-3.4053</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4697,-3.4066</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.75960000000001,-3.3337</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.1431,-2.8823</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.1208,-3.0361</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.2346,-2.9935</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.116,-3.0044</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.99299999999999,-3.008</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.11790000000001,-3.0012</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.997,-3.0197</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.3678,-2.7555</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>101.9384,-3.1026</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.4401,-2.7104</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.6229,-2.7658</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.43689999999999,-2.6026</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.1657,1.374</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.15779999999999,1.3728</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.39870000000001,2.6322</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.3977,2.6311</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.9453,13.6125</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5904,14.2295</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.1936,14.366099999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.1833,14.364699999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.6444,14.5844</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.3057,15.7623</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>98.597499999999997,14.6136</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.1511,15.7303</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>99.907600000000002,17.0409</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>99.906199999999998,17.0427</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2808,-8.0684</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.2539,-8.0736</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.245,-8.0753</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.23480000000001,-8.077299999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.05719999999999,-8.0973</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0463,-8.0993</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.6246,-7.9108</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.5583,-7.7955</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.5502,-7.797</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.5591,-7.7937</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.16119999999999,-4.4463</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.1537,-4.4475</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4697,-4.3542</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4618,-4.3555</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.04179999999999,-4.4145</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.3888,-4.35</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.3875,-4.3415</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.9415,-4.3971</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.93429999999999,-4.3983</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4729,-4.2194</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.18259999999999,-4.3352</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.7139,-4.063</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.6743,-3.97</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4507,-3.9715</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4495,-3.9681</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.5016,-3.881</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4935,-3.8824</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.54049999999999,-3.8659</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.52679999999999,-3.8303</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.4491,-3.8076</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.5459,-3.7391</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.5461,-3.7366</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.39319999999999,-3.7606</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.6819,-3.6886</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.5338,-3.8704</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.7115,-3.6035</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.68000000000001,-3.5629</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.67019999999999,-3.5556</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>105.6619,-3.5569</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>104.667,-3.7079</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.608800000000002,16.739599999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.464699999999993,16.7258</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.682500000000005,16.763999999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.7042,16.826899999999998</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.679299999999998,16.837199999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.6935,16.8462</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.376599999999996,16.800999999999998</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.375500000000002,16.8077</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.4696,16.991700000000002</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.532799999999995,17.0332</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>97.787099999999995,17.228899999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.642600000000002,17.076599999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.5655,17.072500000000002</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.774,17.609000000000002</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.194599999999994,17.5301</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.891599999999997,17.6534</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.923299999999998,17.691199999999998</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.928600000000003,17.7056</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.795199999999994,17.835599999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.509699999999995,17.6922</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.835099999999997,17.8904</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.830299999999994,17.7529</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.503,17.878</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.843500000000006,17.9436</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.792199999999994,17.896</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.805999999999997,17.9049</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>95.796400000000006,17.9171</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.745099999999994,18.1154</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.634900000000002,18.417899999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.496899999999997,18.639500000000002</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.599400000000003,18.7028</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.591499999999996,18.701699999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.502300000000005,18.762599999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>96.501199999999997,18.7694</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.387,21.155999999999999</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl> #My_Style</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Haze_Hotspots_20191021_182600">
+		<SimpleData name="satellite">Noaa19</SimpleData>
+		<SimpleData name="time">0644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.4345,22.0103</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>
