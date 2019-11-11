@@ -4,7 +4,7 @@
         <GroundOverlay id="feat_4">
             <name>GroundOverlay</name>
             <Icon id="link_1">
-                <href>wind.png</href>
+                <href>Haze_Wind_20191029_000000.png</href>
             </Icon>
             <LatLonBox>
                 <north>28.75</north>

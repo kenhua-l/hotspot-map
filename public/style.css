@@ -9,3 +9,9 @@
 #canvasDiv2 {
   overflow: auto;
 }
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+  height: 7px;
+}
