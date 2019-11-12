@@ -5,12 +5,21 @@ var windDisplay = false;
 // Image
 var mapIMG = "canvas.png";
 var dotIMG = "dot.png";
-function defineSketch(hotspotKML, boundaryKML, windKML, satelliteIMG, windIMG) {
+function defineSketch(
+  hotspotKML,
+  boundaryKML,
+  windKML,
+  satelliteIMG,
+  windIMG,
+  canvasWidth,
+  canvasHeight
+) {
   return function(p) {
-    var canvasWidth = parseFloat(document.getElementById("canvas").offsetWidth);
-    var canvasHeight = parseFloat(
-      document.getElementById("canvas").offsetHeight
-    );
+    // var canvasWidth = parseFloat(document.getElementById("canvas").offsetWidth);
+    // var canvasHeight = parseFloat(
+    //   document.getElementById("canvas").offsetHeight
+    // );
+    console.log(canvasWidth, canvasHeight);
     // Fixed
     const coords = { N: 32.6, S: -18.75, E: 150, W: 81.25 };
     const satelliteCoords = { N: 32.6, S: -18.6, E: 144, W: 86 };
@@ -216,13 +225,19 @@ function toggleWind() {
   }
 }
 
+// var canvasWidth = parseFloat(document.getElementById("canvas").offsetWidth);
+// var canvasHeight = parseFloat(document.getElementById("canvas").offsetHeight);
+
 var mySketch = defineSketch(
   "./data/hotspot.kml",
   "./data/boundary.kml",
   "./data/wind.kml",
   "./data/satellite.png",
-  "./data/wind.png"
+  "./data/wind.png",
+  parseFloat(document.getElementById("canvas").offsetWidth),
+  parseFloat(document.getElementById("canvas").offsetHeight)
 );
+
 let myp5 = new p5(mySketch, "canvas");
 let myp56 = new p5(mySketch, "canvas1");
 let myp57 = new p5(mySketch, "canvas2");
