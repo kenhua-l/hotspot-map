@@ -512,22 +512,8 @@ crossorigin=""
                             <div class="row">
                                 
                                 <div class="col-xs-12 col-sm-6 col-md-6">
-                                       
-                                    <div id="canvasDiv" style="width: 50%; height:200px">
+                                    <div id="canvasDiv" style="width: 100%; height:400px">
                                         <div id="canvas" style="width: 800px; height:800px">
-                                        
-                                        </div>
-                                      </div>
-
-                                      <div id="canvasDiv1" style="width: 80%; height:300px">
-                                        <div id="canvas1" style="width: 800px; height:800px">
-                                            
-                                        </div>
-                                      </div>
-
-                                      <div id="canvasDiv2"  style="width: 100%; height:400px">
-                                        <div id="canvas2" style="width: 800px; height:800px">
-                                            <script src="p5.js"></script>
                                         </div>
                                       </div>
                                     <p class="smaller"><em>The hotspots are derived from satellite data and may be affected by cloud cover and the satellite coverage</em></p>
@@ -602,6 +588,10 @@ the southeast or southwest.
                         
                     </div>
                 </div>
+
+            
+
+                
 
                 <div id="box-satellite" style="display: none" data-box="satellite" class="tab__item2 satellite-box">
                     <div class="section--white">
@@ -683,6 +673,376 @@ the southeast or southwest.
         </div>
     </div>
 </div>
+
+
+
+<div class="air-quality">
+    <div class="container">
+        <div class="section--white">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="air-quality-small">
+                        <div class="tab__nav">
+                            <button type="button" data-box="hotspots" class="tab__nav-item2 is-active">Hotspot</button>
+                            <button type="button" data-box="satellite" class="tab__nav-item2">Satellite</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12">
+
+                    <div id="box-hotspots" data-box="hotspots" class="tab__item2 is-active">
+                        <div class="section--white">
+                            <h2 class="title" style="text-align:center; text-transform:uppercase;">Hotspots</h2>
+                            <div class="row">
+                                
+                                <div class="col-xs-12 col-sm-8 col-md-8">
+                                    <div id="canvasDiv1" style="width: 100%; height:400px">
+                                        <div id="canvas1" style="width: 800px; height:800px">   
+                                        </div>
+                                      </div>
+                                    <p class="smaller"><em>The hotspots are derived from satellite data and may be affected by cloud cover and the satellite coverage</em></p>
+        
+
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <div class="hotspot">
+                                        <!-- TO-DO: REPLACE this with one from API -->
+                                        <div class="smaller">A low pressure system developing over the South China 
+Sea brought scattered showers to the Philippines and 
+some parts of the Mekong sub-region. There were also 
+scattered showers over the southern ASEAN region, 
+but isolated hotspots with localised smoke haze 
+continued to be observed in South Sumatra, Lampung 
+and Central Kalimantan.
+
+Over the next few days, more showers can be expected 
+over the Philippines, and parts of the Mekong sub-region. 
+The prevailing winds are forecast to blow from the 
+northeast or east. In the southern ASEAN region, 
+rainy conditions are forecast over areas along the 
+equator, but drier weather is expected to return to the 
+southern parts of Kalimantan and Sumatra, and Java. 
+The prevailing winds are expected to blow mainly from 
+the southeast or southwest.
+
+
+<br><br><p style="color: red">Updated 5:32 PM 4 Nov  </p> 
+</div>
+                                        <br>
+                                        <h3 class="title">Overlay</h3>
+                                        <div class="overlay-checkbox">
+                                            <input id="overlay1" onclick="toggleWind()" name="overlay1" type="checkbox">
+                                            <label for="overlay1">2500ft wind</label>
+                                        </div>
+                                        <div class="overlay-checkbox">
+                                            <input id="overlay2" onclick="toggleSatellite()" name="overlay2" type="checkbox">
+                                            <label for="overlay2">Satellite Image (4.30pm)</label>
+                                        </div>
+                                        <h3 class="title">Legend</h3>
+                                        <div class="legend">
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="dense haze legend" src="./files/legend-dense-haze.jpg"></div>
+                                                <div class="text">Dense Haze</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="moderate haze legend" src="./files/legend-moderate-haze.jpg"></div>
+                                                <div class="text">Moderate Haze</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="hotspot legend" src="./files/legend-hotspot.jpg"></div>
+                                                <div class="text">Hotspot</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="wind legend" src="./files/legend-wind.jpg"></div>
+                                                <div class="text">2500ft wind</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image image--long"><img alt="wind speed legend" src="./files/legend-wind-speed.jpg"></div>
+                                                <div class="text">Wind speed (km/h)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <script type="text/javascript" src="./files/js">
+                        </script>
+                        
+                    </div>
+                </div>
+
+                
+
+                <div id="box-satellite" style="display: none" data-box="satellite" class="tab__item2 satellite-box">
+                    <div class="section--white">
+                        <h2 class="title" style="text-align:center; text-transform: uppercase;">Satellite Images</h2>
+                    </div>
+                    <div class="container" style="padding:0 30px;">
+                        <div class="row">
+                            <div class="col-sm-4" style="padding:0 20px;">
+                                <div class="row allow-overflow-item" style="text-align:center; padding-bottom: 20px;">
+                                    <a href="./files/rsz_20190911_airhitamlautp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                        <img alt="rsz_20190911_airhitamlautp_30m" src="./files/rsz_20190911_airhitamlautp_30m.jpg" class="satellite-focus-pic">
+                                    </a>
+                                    <div class="btn-group-download">
+                                        <span title="AirHitamLautP_20190911_030417_1006">AirHitamLautP_20190911_030417_1006</span><br>
+                                        (458.89 KB)<br>
+                                        <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190911_airhitamlautp.kmz?download=true" class="btn">Download .kmz File</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="row">
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190913_benakatminyakp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190913_benakatminyakp_30m" src="./files/rsz_20190913_benakatminyakp_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="BenakatMinyakP_20190913_023739_104e">BenakatMinyakP...</span><br>
+
+                                                (201.37 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190913_benakatminyakp.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190912_pelawep_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190912_pelawep_30m" src="./files/rsz_20190912_pelawep_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="PelaweP_20190912_030621_0f15">PelaweP_201909...</span><br>
+
+                                                (362.01 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190912_pelawep.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190912_sgrotanp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190912_sgrotanp_30m" src="./files/rsz_20190912_sgrotanp_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="SgRotanP_20190912_023256_1043">SgRotanP_20190...</span><br>
+
+                                                (181.93 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190912_sgrotanp.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190911_mersamp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190911_mersamp_30m" src="./files/rsz_20190911_mersamp_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="MersamP_20190911_041904_25_1069">MersamP_201909...</span><br>
+
+                                                (460.83 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190911_mersamp.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                </div>
+                                <div class="row">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-group" style="text-align:right; padding-right:30px;">
+                      <a href="https://www.haze.gov.sg/satellite-archive/" class="btn btn--leaf-green">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="air-quality">
+    <div class="container">
+        <div class="section--white">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="air-quality-small">
+                        <div class="tab__nav">
+                            <button type="button" data-box="hotspots" class="tab__nav-item2 is-active">Hotspot</button>
+                            <button type="button" data-box="satellite" class="tab__nav-item2">Satellite</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12">
+
+                    <div id="box-hotspots" data-box="hotspots" class="tab__item2 is-active">
+                        <div class="section--white">
+                            <h2 class="title" style="text-align:center; text-transform:uppercase;">Hotspots</h2>
+                            <div class="row">
+                                
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+
+                                    <div id="canvasDiv2" style="width: 800px; height:600px; margin: 0 auto;">
+                                        <div id="canvas2" style="width: 800px; height:800px">
+                                            <script src="p5.js"></script>
+                                        </div>
+                                      </div>
+                                    <p class="smaller"><em>The hotspots are derived from satellite data and may be affected by cloud cover and the satellite coverage</em></p>
+        
+
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <div class="hotspot">
+                                        <!-- TO-DO: REPLACE this with one from API -->
+                                        <div class="smaller">A low pressure system developing over the South China 
+Sea brought scattered showers to the Philippines and 
+some parts of the Mekong sub-region. There were also 
+scattered showers over the southern ASEAN region, 
+but isolated hotspots with localised smoke haze 
+continued to be observed in South Sumatra, Lampung 
+and Central Kalimantan.
+
+Over the next few days, more showers can be expected 
+over the Philippines, and parts of the Mekong sub-region. 
+The prevailing winds are forecast to blow from the 
+northeast or east. In the southern ASEAN region, 
+rainy conditions are forecast over areas along the 
+equator, but drier weather is expected to return to the 
+southern parts of Kalimantan and Sumatra, and Java. 
+The prevailing winds are expected to blow mainly from 
+the southeast or southwest.
+
+
+<br><br><p style="color: red">Updated 5:32 PM 4 Nov  </p> 
+</div>
+                                        <br>
+                                        <h3 class="title">Overlay</h3>
+                                        <div class="overlay-checkbox">
+                                            <input id="overlay1" onclick="toggleWind()" name="overlay1" type="checkbox">
+                                            <label for="overlay1">2500ft wind</label>
+                                        </div>
+                                        <div class="overlay-checkbox">
+                                            <input id="overlay2" onclick="toggleSatellite()" name="overlay2" type="checkbox">
+                                            <label for="overlay2">Satellite Image (4.30pm)</label>
+                                        </div>
+                                        <h3 class="title">Legend</h3>
+                                        <div class="legend">
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="dense haze legend" src="./files/legend-dense-haze.jpg"></div>
+                                                <div class="text">Dense Haze</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="moderate haze legend" src="./files/legend-moderate-haze.jpg"></div>
+                                                <div class="text">Moderate Haze</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="hotspot legend" src="./files/legend-hotspot.jpg"></div>
+                                                <div class="text">Hotspot</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image"><img alt="wind legend" src="./files/legend-wind.jpg"></div>
+                                                <div class="text">2500ft wind</div>
+                                            </div>
+                                            <div class="legend__item">
+                                                <div class="image image--long"><img alt="wind speed legend" src="./files/legend-wind-speed.jpg"></div>
+                                                <div class="text">Wind speed (km/h)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <script type="text/javascript" src="./files/js">
+                        </script>
+                        
+                    </div>
+                </div>
+
+            
+
+                
+
+                <div id="box-satellite" style="display: none" data-box="satellite" class="tab__item2 satellite-box">
+                    <div class="section--white">
+                        <h2 class="title" style="text-align:center; text-transform: uppercase;">Satellite Images</h2>
+                    </div>
+                    <div class="container" style="padding:0 30px;">
+                        <div class="row">
+                            <div class="col-sm-4" style="padding:0 20px;">
+                                <div class="row allow-overflow-item" style="text-align:center; padding-bottom: 20px;">
+                                    <a href="./files/rsz_20190911_airhitamlautp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                        <img alt="rsz_20190911_airhitamlautp_30m" src="./files/rsz_20190911_airhitamlautp_30m.jpg" class="satellite-focus-pic">
+                                    </a>
+                                    <div class="btn-group-download">
+                                        <span title="AirHitamLautP_20190911_030417_1006">AirHitamLautP_20190911_030417_1006</span><br>
+                                        (458.89 KB)<br>
+                                        <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190911_airhitamlautp.kmz?download=true" class="btn">Download .kmz File</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="row">
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190913_benakatminyakp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190913_benakatminyakp_30m" src="./files/rsz_20190913_benakatminyakp_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="BenakatMinyakP_20190913_023739_104e">BenakatMinyakP...</span><br>
+
+                                                (201.37 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190913_benakatminyakp.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190912_pelawep_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190912_pelawep_30m" src="./files/rsz_20190912_pelawep_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="PelaweP_20190912_030621_0f15">PelaweP_201909...</span><br>
+
+                                                (362.01 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190912_pelawep.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190912_sgrotanp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190912_sgrotanp_30m" src="./files/rsz_20190912_sgrotanp_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="SgRotanP_20190912_023256_1043">SgRotanP_20190...</span><br>
+
+                                                (181.93 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190912_sgrotanp.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 col-xs-6" style="text-align:center; padding-bottom: 20px;">
+                                            <a href="./files/rsz_20190911_mersamp_30m.jpg" rel="next noreferrer noopener" target="_blank">
+                                                <img alt="rsz_20190911_mersamp_30m" src="./files/rsz_20190911_mersamp_30m.jpg" class="satellite-focus-pic-choice img-responsive">
+                                            </a>
+                                            <div class="btn-group-download">
+                                                    <span title="MersamP_20190911_041904_25_1069">MersamP_201909...</span><br>
+
+                                                (460.83 KB)<br>
+                                                <a href="https://www.haze.gov.sg/docs/default-source/satellite-image-files/webview_20190911_mersamp.kmz?download=true" class="btn">Download .kmz File</a>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                </div>
+                                <div class="row">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-group" style="text-align:right; padding-right:30px;">
+                      <a href="https://www.haze.gov.sg/satellite-archive/" class="btn btn--leaf-green">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
             </div>
             <div id="4">
