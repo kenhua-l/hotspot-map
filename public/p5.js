@@ -178,6 +178,11 @@ function defineSketch(
           satelliteHeight
         );
       }
+
+      // p.strokeWeight(150);
+      // p.stroke(256);
+      // p.noFill();
+      // p.rect(0, 0, 800, 800);
     };
     function showHotspot() {
       for (var p = 0; p < hotspot.length; p++) {
