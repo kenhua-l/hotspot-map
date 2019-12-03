@@ -15,10 +15,6 @@ function defineSketch(
   canvasHeight
 ) {
   return function(p) {
-    // var canvasWidth = parseFloat(document.getElementById("canvas").offsetWidth);
-    // var canvasHeight = parseFloat(
-    //   document.getElementById("canvas").offsetHeight
-    // );
     console.log(canvasWidth, canvasHeight);
     // Fixed
     const coords = { N: 32.6, S: -18.75, E: 150, W: 81.25 };
@@ -178,11 +174,6 @@ function defineSketch(
           satelliteHeight
         );
       }
-
-      // p.strokeWeight(150);
-      // p.stroke(256);
-      // p.noFill();
-      // p.rect(0, 0, 800, 800);
     };
     function showHotspot() {
       for (var p = 0; p < hotspot.length; p++) {
@@ -230,9 +221,6 @@ function toggleWind() {
   }
 }
 
-// var canvasWidth = parseFloat(document.getElementById("canvas").offsetWidth);
-// var canvasHeight = parseFloat(document.getElementById("canvas").offsetHeight);
-
 var mySketch = defineSketch(
   "./data/hotspot.kml",
   "./data/boundary.kml",
@@ -244,14 +232,8 @@ var mySketch = defineSketch(
 );
 
 let myp5 = new p5(mySketch, "canvas");
-let myp56 = new p5(mySketch, "canvas1");
-let myp57 = new p5(mySketch, "canvas2");
 
 $(document).ready(function() {
   $("#canvasDiv").scrollTop(280);
   $("#canvasDiv").scrollLeft(150);
-  $("#canvasDiv1").scrollTop(280);
-  $("#canvasDiv1").scrollLeft(150);
-  $("#canvasDiv2").scrollTop(280);
-  $("#canvasDiv2").scrollLeft(150);
 });
