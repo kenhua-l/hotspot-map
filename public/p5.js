@@ -5,15 +5,8 @@ var windDisplay = false;
 // Image
 var mapIMG = "canvas.png";
 var dotIMG = "dot.png";
-function defineSketch(
-  hotspotKML,
-  boundaryKML,
-  windKML,
-  satelliteIMG,
-  windIMG,
-  canvasWidth,
-  canvasHeight
-) {
+
+function defineSketch(hotspotKML,boundaryKML,windKML,satelliteIMG,windIMG,canvasWidth,canvasHeight) {
   return function(p) {
     console.log(canvasWidth, canvasHeight);
     // Fixed
