@@ -29,11 +29,28 @@
 											<h2 class="title" style="text-align:center; text-transform:uppercase;">Hotspots</h2>
 											<div class="row">
 												<div class="col-xs-12 col-sm-6 col-md-6">
-													<div id="canvasDiv" style="width: 100%; height:400px; overflow: auto">
-														<div id="canvas" style="width: 800px; height:800px">
-														</div>
-														<script src="p5.js"></script>
-													</div>
+													<div id="canvasDiv" style="width: 100%; height: 400px; overflow: hidden">
+                              <div id="canvas" style="width: 800px; height: 800px"></div>
+                          </div>
+													<script src="p5.js"></script>
+													<script>
+													var mySketch = defineSketch(
+														"data/hotspot.kml",
+														"data/boundary.kml",
+														"data/wind.kml",
+														"data/satellite.png",
+														"data/wind.png",
+														parseFloat(jQuery("#canvas").width()),
+														parseFloat(jQuery("#canvas").height())
+													);
+													let myp5 = new p5(mySketch, "canvas");
+													jQuery(document).ready(function () {
+														checkboxes();
+														pannable();
+														jQuery("#canvasDiv").scrollTop(280);
+														jQuery("#canvasDiv").scrollLeft(60);
+													});
+													</script>
 													<p class="smaller"><em>The hotspots are derived from satellite data and may be affected by cloud cover and the satellite coverage</em></p>
 												</div>
 												<div class="col-xs-12 col-sm-6 col-md-6">
@@ -41,11 +58,11 @@
 														TO-DO: REPLACE this with one from API
 														<h3 class="title">Overlay</h3>
 														<div class="overlay-checkbox">
-															<input id="overlay1" onclick="toggleWind()" name="overlay1" type="checkbox">
+															<input id="overlay1" onclick="showMarkers()" name="overlay1" type="checkbox">
 															<label for="overlay1">2500ft wind</label>
 														</div>
 														<div class="overlay-checkbox">
-															<input id="overlay2" onclick="toggleSatellite()" name="overlay2" type="checkbox">
+															<input id="overlay2" onclick="toggleOverlay()" name="overlay2" type="checkbox">
 															<label for="overlay2">Satellite Image (4.30pm)</label>
 														</div>
 														<h3 class="title">Legend</h3>

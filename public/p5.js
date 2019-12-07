@@ -8,7 +8,6 @@ var dotIMG = "dot.png";
 
 function defineSketch(hotspotKML,boundaryKML,windKML,satelliteIMG,windIMG,canvasWidth,canvasHeight) {
   return function(p) {
-    console.log(canvasWidth, canvasHeight);
     // Fixed
     const coords = { N: 32.6, S: -18.75, E: 150, W: 81.25 };
     const satelliteCoords = { N: 32.6, S: -18.6, E: 144, W: 86 };
@@ -137,7 +136,7 @@ function defineSketch(hotspotKML,boundaryKML,windKML,satelliteIMG,windIMG,canvas
       if (boundaryDisplay === true) {
         showBoundary();
       }
-      // Wind
+      //Wind
       if (windDisplay === true) {
         const WindEast = canvasWidth - boundWindCoords.SE.newX;
         const WindSouth = canvasHeight - boundWindCoords.SE.newY;
@@ -168,6 +167,7 @@ function defineSketch(hotspotKML,boundaryKML,windKML,satelliteIMG,windIMG,canvas
         );
       }
     };
+
     function showHotspot() {
       for (var p = 0; p < hotspot.length; p++) {
         markers(hotspot[p].lng, hotspot[p].lat);
@@ -182,23 +182,16 @@ function defineSketch(hotspotKML,boundaryKML,windKML,satelliteIMG,windIMG,canvas
   };
 }
 
-function toggleHotspot() {
-  if (hotspotDisplay === false) {
-    hotspotDisplay = true;
-  } else {
-    hotspotDisplay = false;
+function checkboxes(){
+  if(jQuery('#overlay1').prop('checked') == true){
+    showMarkers();
+  }
+  if(jQuery('#overlay2').prop('checked') == true){
+    toggleOverlay();
   }
 }
 
-function toggleBoundary() {
-  if (boundaryDisplay === false) {
-    boundaryDisplay = true;
-  } else {
-    boundaryDisplay = false;
-  }
-}
-
-function toggleSatellite() {
+function toggleOverlay() {
   if (satelliteDisplay === false) {
     satelliteDisplay = true;
   } else {
@@ -206,7 +199,7 @@ function toggleSatellite() {
   }
 }
 
-function toggleWind() {
+function showMarkers() {
   if (windDisplay === false) {
     windDisplay = true;
   } else {
@@ -214,19 +207,40 @@ function toggleWind() {
   }
 }
 
-var mySketch = defineSketch(
-  "./data/hotspot.kml",
-  "./data/boundary.kml",
-  "./data/wind.kml",
-  "./data/satellite.png",
-  "./data/wind.png",
-  parseFloat(document.getElementById("canvas").offsetWidth),
-  parseFloat(document.getElementById("canvas").offsetHeight)
-);
-
-let myp5 = new p5(mySketch, "canvas");
-
-$(document).ready(function() {
-  $("#canvasDiv").scrollTop(280);
-  $("#canvasDiv").scrollLeft(150);
-});
+function pannable() {
+  var curDown = false,
+      curYPos = 0,
+      curXPos = 0,
+      scrollTop = 0,
+      scrollLeft = 0;
+  $('#canvasDiv').on('mousemove', function (m) {
+      if (curDown === true) {
+          $('#canvasDiv').scrollTop(scrollTop + (curYPos - m.pageY));
+          $('#canvasDiv').scrollLeft(scrollLeft + (curXPos - m.pageX));
+      }
+  });
+  $('#canvasDiv').on('touchmove', function (m) {
+      m.preventDefault();
+      if (curDown === true) {
+          $('#canvasDiv').scrollTop(scrollTop + (curYPos - m.originalEvent.touches[0].pageY));
+          $('#canvasDiv').scrollLeft(scrollLeft + (curXPos - m.originalEvent.touches[0].pageX));
+      }
+  });
+  $('#canvasDiv').on('mousedown', function (m) {
+      curDown = true;
+      curYPos = m.pageY;
+      curXPos = m.pageX;
+      scrollTop = $('#canvasDiv').scrollTop();
+      scrollLeft = $('#canvasDiv').scrollLeft();
+  });
+  $('#canvasDiv').on('touchstart', function (m) {
+      curDown = true;
+      curYPos = m.originalEvent.touches[0].pageY;
+      curXPos = m.originalEvent.touches[0].pageX;
+      scrollTop = $('#canvasDiv').scrollTop();
+      scrollLeft = $('#canvasDiv').scrollLeft();
+  });
+  $(window).on('mouseup touchend', function () {
+      curDown = false;
+  });
+}
