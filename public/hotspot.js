@@ -1,10 +1,246 @@
-var $jscomp={scope:{}};$jscomp.defineProperty="function"==typeof Object.defineProperties?Object.defineProperty:function(a,e,b){if(b.get||b.set)throw new TypeError("ES3 does not support getters and setters.");a!=Array.prototype&&a!=Object.prototype&&(a[e]=b.value)};$jscomp.getGlobal=function(a){return"undefined"!=typeof window&&window===a?a:"undefined"!=typeof global&&null!=global?global:a};$jscomp.global=$jscomp.getGlobal(this);
-$jscomp.polyfill=function(a,e,b,c){if(e){b=$jscomp.global;a=a.split(".");for(c=0;c<a.length-1;c++){var h=a[c];h in b||(b[h]={});b=b[h]}a=a[a.length-1];c=b[a];e=e(c);e!=c&&null!=e&&$jscomp.defineProperty(b,a,{configurable:!0,writable:!0,value:e})}};$jscomp.polyfill("Array.prototype.fill",function(a){return a?a:function(a,b,c){var e=this.length||0;0>b&&(b=Math.max(0,e+b));if(null==c||c>e)c=e;c=Number(c);0>c&&(c=Math.max(0,e+c));for(b=Number(b||0);b<c;b++)this[b]=a;return this}},"es6-impl","es3");
-var hotspotDisplay=!0,boundaryDisplay=!0,satelliteDisplay=!1,windDisplay=!1,mapIMG="canvas.png",dotIMG="dot.png";
-function defineSketch(a,e,b,c,h,g,m){return function(f){var k,n,v,w,x,y,l,p;function B(){fetch(a).then(function(d){return d.text()}).then(function(d){d=(new DOMParser).parseFromString(d,"text/xml");d=new L.KML(d);for(var a=0;a<d.latLngs.length;a++)q.push({lat:d.latLngs[a].lat,lng:d.latLngs[a].lng})});fetch(e).then(function(d){return d.text()}).then(function(d){d=(new DOMParser).parseFromString(d,"text/xml");r=(new L.KML(d)).getLayers()});fetch(b).then(function(d){return d.text()}).then(function(d){d=
-(new DOMParser).parseFromString(d,"text/xml");var a=new L.KML(d);d=a.getLayers()[0].getBounds().getNorthEast();a=a.getLayers()[0].getBounds().getSouthWest();v=d.lat;w=d.lng;x=a.lat;y=a.lng;k=t(y,v);n=t(w,x)});l=t(u.W,u.N);p=t(u.E,u.S)}function t(a,b){return{newX:(a-81.25)*C,newY:(b-32.6)*D}}var u={N:32.6,S:-18.6,E:144,W:86};n=k=y=x=w=v=p=l=void 0;var C=g/68.75,D=m/-51.35,z=g/Math.abs(68.75),A=m/Math.abs(-51.35),q=[],r=[];f.setup=function(){f.frameRate(1);f.createCanvas(g,m);img=f.loadImage(mapIMG);
-satellite=f.loadImage(c);wind=f.loadImage(h);dot=f.loadImage(dotIMG);B()};f.draw=function(){f.image(img,0,0);img.resize(g,m);if(!0===hotspotDisplay)for(var a=0;a<q.length;a++){var b=q[a].lng,c=q[a].lat;f.noFill();f.stroke("red");f.strokeWeight(3);f.image(dot,Math.abs(b-81.25)*z,Math.abs(c-Math.abs(32.6))*A)}if(!0===boundaryDisplay)for(a=0;a<r.length;a++){var b=r[a].getLatLngs()[0],c=r[a].options,e=f.color(c.fillColor);e.setAlpha(100);f.fill(e);f.stroke(c.color);f.strokeWeight(1);f.beginShape();for(c=
-0;c<b.length;c++)f.vertex(Math.abs(b[c].lng-81.25)*z,Math.abs(b[c].lat-Math.abs(32.6))*A);f.endShape(f.CLOSE)}!0===windDisplay&&f.image(wind,k.newX,k.newY,n.newX-k.newX,n.newY-k.newY);!0===satelliteDisplay&&f.image(satellite,l.newX,l.newY,p.newX-l.newX,p.newY-l.newY)}}}function checkboxes(){1==jQuery("#overlay1").prop("checked")&&showMarkers();1==jQuery("#overlay2").prop("checked")&&toggleOverlay()}function toggleOverlay(){satelliteDisplay=!1===satelliteDisplay?!0:!1}
-function showMarkers(){windDisplay=!1===windDisplay?!0:!1}
-function pannable(){var a=!1,e=0,b=0,c=0,h=0;$("#canvasDiv").on("mousemove",function(g){!0===a&&($("#canvasDiv").scrollTop(c+(e-g.pageY)),$("#canvasDiv").scrollLeft(h+(b-g.pageX)))});$("#canvasDiv").on("touchmove",function(g){g.preventDefault();!0===a&&($("#canvasDiv").scrollTop(c+(e-g.originalEvent.touches[0].pageY)),$("#canvasDiv").scrollLeft(h+(b-g.originalEvent.touches[0].pageX)))});$("#canvasDiv").on("mousedown",function(g){a=!0;e=g.pageY;b=g.pageX;c=$("#canvasDiv").scrollTop();h=$("#canvasDiv").scrollLeft()});
-$("#canvasDiv").on("touchstart",function(g){a=!0;e=g.originalEvent.touches[0].pageY;b=g.originalEvent.touches[0].pageX;c=$("#canvasDiv").scrollTop();h=$("#canvasDiv").scrollLeft()});$(window).on("mouseup touchend",function(){a=!1})};
+var hotspotDisplay = true;
+var boundaryDisplay = true;
+var satelliteDisplay = false;
+var windDisplay = false;
+// Image
+var mapIMG = "canvas.png";
+var dotIMG = "dot.png";
+
+function defineSketch(hotspotKML,boundaryKML,windKML,satelliteIMG,windIMG,canvasWidth,canvasHeight) {
+  return function(p) {
+    // Fixed
+    const coords = { N: 32.6, S: -18.75, E: 150, W: 81.25 };
+    const satelliteCoords = { N: 32.6, S: -18.6, E: 144, W: 86 };
+    var boundSatelliteCoords = {};
+    // Wind
+    var windCoords = {};
+    var boundWindCoords = {};
+    var altX = coords.W;
+    var altY = coords.N;
+    var offsetX = canvasWidth / (coords.E - coords.W);
+    var offsetY = canvasHeight / (coords.S - coords.N);
+    var hotspotOffsetX = canvasWidth / Math.abs(coords.E - coords.W);
+    var hotspotOffsetY = canvasHeight / Math.abs(coords.S - coords.N);
+    var hotspot = [];
+    var boundaryArr = [];
+
+    p.setup = function() {
+      p.frameRate(1);
+      p.createCanvas(canvasWidth, canvasHeight);
+
+      // Load image
+      img = p.loadImage(mapIMG);
+      satellite = p.loadImage(satelliteIMG);
+      wind = p.loadImage(windIMG);
+      dot = p.loadImage(dotIMG);
+      loadKml();
+    };
+
+    function loadKml() {
+      fetch(hotspotKML)
+        .then(res => res.text())
+        .then(kmltext => {
+          // Create new kml overlay
+          const parser = new DOMParser();
+          const kml = parser.parseFromString(kmltext, "text/xml");
+          const track = new L.KML(kml);
+          for (var i = 0; i < track.latLngs.length; i++) {
+            hotspot.push({
+              lat: track.latLngs[i].lat,
+              lng: track.latLngs[i].lng
+            });
+          }
+        });
+      fetch(boundaryKML)
+        .then(res => res.text())
+        .then(kmltext => {
+          // Create new kml overlay
+          const parser = new DOMParser();
+          const kml = parser.parseFromString(kmltext, "text/xml");
+          const track = new L.KML(kml);
+          const bounds = track.getLayers();
+          boundaryArr = bounds;
+        });
+
+      fetch(windKML)
+        .then(res => res.text())
+        .then(kmltext => {
+          // Create new kml overlay
+          const parser = new DOMParser();
+          const kml = parser.parseFromString(kmltext, "text/xml");
+          const track = new L.KML(kml);
+          var windBoundNE = track
+            .getLayers()[0]
+            .getBounds()
+            .getNorthEast();
+          var windBoundSW = track
+            .getLayers()[0]
+            .getBounds()
+            .getSouthWest();
+          windCoords = {
+            N: windBoundNE.lat,
+            E: windBoundNE.lng,
+            S: windBoundSW.lat,
+            W: windBoundSW.lng
+          };
+          boundWindCoords = {
+            NW: alterCoords(windCoords.W, windCoords.N),
+            SE: alterCoords(windCoords.E, windCoords.S)
+          };
+        });
+      // Satellite
+      boundSatelliteCoords = {
+        NW: alterCoords(satelliteCoords.W, satelliteCoords.N),
+        SE: alterCoords(satelliteCoords.E, satelliteCoords.S)
+      };
+    }
+    function alterCoords(x, y) {
+      var newX = (x - altX) * offsetX;
+      var newY = (y - altY) * offsetY;
+      return { newX, newY };
+    }
+
+    function markers(x, y) {
+      p.noFill();
+      p.stroke("red"); // Change the color
+      p.strokeWeight(3);
+      var mapX = Math.abs(x - altX) * hotspotOffsetX;
+      var mapY = Math.abs(y - Math.abs(altY)) * hotspotOffsetY;
+      p.image(dot, mapX, mapY);
+    }
+
+    function boundary(arr, options) {
+      var c = p.color(options.fillColor);
+      c.setAlpha(100);
+      p.fill(c);
+      p.stroke(options.color); // Change the color
+      p.strokeWeight(1);
+      p.beginShape();
+
+      for (var i = 0; i < arr.length; i++) {
+        var mapX = Math.abs(arr[i].lng - altX) * hotspotOffsetX;
+        var mapY = Math.abs(arr[i].lat - Math.abs(altY)) * hotspotOffsetY;
+        p.vertex(mapX, mapY);
+      }
+      p.endShape(p.CLOSE);
+    }
+
+    p.draw = function() {
+      p.image(img, 0, 0);
+      img.resize(canvasWidth, canvasHeight);
+
+      if (hotspotDisplay === true) {
+        showHotspot();
+      }
+
+      if (boundaryDisplay === true) {
+        showBoundary();
+      }
+      //Wind
+      if (windDisplay === true) {
+        const WindEast = canvasWidth - boundWindCoords.SE.newX;
+        const WindSouth = canvasHeight - boundWindCoords.SE.newY;
+        const windHeight = boundWindCoords.SE.newY - boundWindCoords.NW.newY;
+        const windWidth = boundWindCoords.SE.newX - boundWindCoords.NW.newX;
+        p.image(
+          wind,
+          boundWindCoords.NW.newX,
+          boundWindCoords.NW.newY,
+          windWidth,
+          windHeight
+        );
+      }
+      // Satellite
+      if (satelliteDisplay === true) {
+        const satelliteEast = canvasWidth - boundSatelliteCoords.SE.newX;
+        const satelliteSouth = canvasHeight - boundSatelliteCoords.SE.newY;
+        const satelliteHeight =
+          boundSatelliteCoords.SE.newY - boundSatelliteCoords.NW.newY;
+        const satelliteWidth =
+          boundSatelliteCoords.SE.newX - boundSatelliteCoords.NW.newX;
+        p.image(
+          satellite,
+          boundSatelliteCoords.NW.newX,
+          boundSatelliteCoords.NW.newY,
+          satelliteWidth,
+          satelliteHeight
+        );
+      }
+    };
+
+    function showHotspot() {
+      for (var p = 0; p < hotspot.length; p++) {
+        markers(hotspot[p].lng, hotspot[p].lat);
+      }
+    }
+
+    function showBoundary() {
+      for (var c = 0; c < boundaryArr.length; c++) {
+        boundary(boundaryArr[c].getLatLngs()[0], boundaryArr[c].options);
+      }
+    }
+  };
+}
+
+function checkboxes(){
+  if(jQuery('#overlay1').prop('checked') == true){
+    showMarkers();
+  }
+  if(jQuery('#overlay2').prop('checked') == true){
+    toggleOverlay();
+  }
+}
+
+function toggleOverlay() {
+  if (satelliteDisplay === false) {
+    satelliteDisplay = true;
+  } else {
+    satelliteDisplay = false;
+  }
+}
+
+function showMarkers() {
+  if (windDisplay === false) {
+    windDisplay = true;
+  } else {
+    windDisplay = false;
+  }
+}
+
+function pannable() {
+  var curDown = false,
+      curYPos = 0,
+      curXPos = 0,
+      scrollTop = 0,
+      scrollLeft = 0;
+  $('#canvasDiv').on('mousemove', function (m) {
+      if (curDown === true) {
+          $('#canvasDiv').scrollTop(scrollTop + (curYPos - m.pageY));
+          $('#canvasDiv').scrollLeft(scrollLeft + (curXPos - m.pageX));
+      }
+  });
+  $('#canvasDiv').on('touchmove', function (m) {
+      m.preventDefault();
+      if (curDown === true) {
+          $('#canvasDiv').scrollTop(scrollTop + (curYPos - m.originalEvent.touches[0].pageY));
+          $('#canvasDiv').scrollLeft(scrollLeft + (curXPos - m.originalEvent.touches[0].pageX));
+      }
+  });
+  $('#canvasDiv').on('mousedown', function (m) {
+      curDown = true;
+      curYPos = m.pageY;
+      curXPos = m.pageX;
+      scrollTop = $('#canvasDiv').scrollTop();
+      scrollLeft = $('#canvasDiv').scrollLeft();
+  });
+  $('#canvasDiv').on('touchstart', function (m) {
+      curDown = true;
+      curYPos = m.originalEvent.touches[0].pageY;
+      curXPos = m.originalEvent.touches[0].pageX;
+      scrollTop = $('#canvasDiv').scrollTop();
+      scrollLeft = $('#canvasDiv').scrollLeft();
+  });
+  $(window).on('mouseup touchend', function () {
+      curDown = false;
+  });
+}
