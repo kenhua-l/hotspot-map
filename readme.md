@@ -1,0 +1,1 @@
+There is no need to do any npm install, or gulp for this project. the page in the public page is sufficiently coded out to display. However, you will need to serve the folder in a server like python -m http.server
